@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 *
 {
     margin: 0px;
@@ -20,6 +23,7 @@ body
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
+    z-index: 100000;
 }
 .container h1
 {
@@ -68,6 +72,7 @@ nav ul li a
     font-size: 24px;
     line-height: 36px;
     transition: 0.5s;
+    text-decoration: none;
 
 }
 nav ul li a:hover 
@@ -89,4 +94,81 @@ nav ul li a:hover
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+}
+
+.content
+{
+    position: absolute;
+    width: 1254px;
+    height: 528px;
+    left: 99px;
+    top: 147px;
+    background: #583a3a;
+}
+.content img
+{
+    position: absolute;
+    width: 488px;
+    height: 460px;
+    left: 696px;
+    top: 34px;
+}
+.content h2
+{
+    position: absolute;
+    width: 503px;
+    height: 37px;
+    left: 10px;
+    top: 208px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #1c56ec;
+}
+.content p
+{
+    position: absolute;
+    width: 338px;
+    height: 85px;
+    left: 10px;
+    top: 299px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+.content a
+{
+    position: absolute;
+    width: 163px;
+    height: 50px;
+    left: 16px;
+    top: 420px;
+    background: rgba(47, 184, 44, 0.92);
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    letter-spacing: -0.017em;
+    top: 430px;
+    left: 30px;
+    width: 136px;
+    height: 36px;
+    text-decoration: none;
 }
