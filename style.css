@@ -433,4 +433,214 @@ nav ul li a:hover
     align-items: center;
     letter-spacing: -0.017em;
     color: #fff;
+<<<<<<< HEAD
 }
+=======
+}
+p
+{
+    position: absolute;
+    width: 629px;
+    height: 36px;
+    left: 405px;
+    top: 1597px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #fff;
+}
+
+/* Signin */
+
+.signin
+{
+    position: absolute;
+    width: 627px;
+    height: 670px;
+    left: 349px;
+    top: 150px;
+    background: #583a3a;
+    border-radius: 50px;
+}
+.pre
+{
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 126px;
+    top: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #250808;
+}
+.border
+{
+    position: absolute;
+    width: 228px;
+    height: 60px;
+    left: 72px;
+    top: 30px;
+    background: #e5e5e5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.boder 
+{
+    position: absolute;
+    width: 218px;
+    height: 60px;
+    left: 300px;
+    top: 30px;
+    background: rgba(47, 187, 44, 0.92);
+}
+.prep
+{
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 126px;
+    top: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #250808;
+}
+
+/* Login to your account */
+.core 
+{
+    position: absolute;
+    width: 187px;
+    height: 72px;
+    left: 196px;
+    top: 102px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #fff;    
+}
+/* Input */
+input[type=email]
+{
+    position: absolute;
+    width: 436px;
+    height: 64px;
+    left: 72px;
+    top: 204px;
+    background: #fff;
+}
+.email
+{
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 134px;
+    top: 226px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #000;
+}
+
+input[type=password]
+{
+    position: absolute;
+    width: 436px;
+    height: 68px;
+    left: 72px;
+    top: 308px;
+    background: #fff;
+}
+.password
+{
+    position: absolute;
+    width: 85px;
+    height: 28px;
+    left: 137px;
+    top: 322px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #000;
+}
+input[type=submit]
+{
+    position: absolute;
+    width: 212px;
+    height: 66px;
+    left: 179px;
+    top: 426px;
+    background: rgba(47, 184, 44, 0.92);
+    border-radius: 50px;
+}
+.submit
+{
+    position: absolute;
+    width: 63px;
+    height: 36px;
+    left: 252px;
+    top: 441px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -0.017em;
+    color: #fff;
+}
+.post
+{
+    position: absolute;
+    width: 207px;
+    height: 36px;
+    left: 186px;
+    top: 514px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #fff;
+}
+>>>>>>> d8a209bfe53d845c48c60c9458de870c1b4a7a1c
