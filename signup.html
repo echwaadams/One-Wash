@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>One Wash</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="container">
+        <h1>OneWash</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services&Pricing</a></li>
+                <li><a href="Review.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+    <a href="signup.html"></a>
+
+    <div class="signup" id="getstarted" >
+        <form id="form" action="">
+            <div class="getb">
+            <p class="ont">Sign Up</p>
+            </div>
+            
+            <p class="pore">Sign Up For Free</p>
+            <input class="fname" type="fname" name="First Name*" placeholder="First Name" required>
+            <input class="lname" type="lname" name="Last Name*" placeholder="Last Name" required>
+            <input class="ema" type="text" name="Email" placeholder="Email" required>
+            <input class="password" type="pass" name="SetPassword" placeholder="SetPassword" 
+            required>
+            <input class="getstarted" type="submit" value="GetStarted" onclick="userSignUp()" >
+            
+        </form>
+    </div>
+    <script>
+        function userSignUp(){
+           window.location.href='index.html';
+        }
+    </script>
+    
+</html>

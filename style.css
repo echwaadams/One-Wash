@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 *
@@ -68,7 +69,7 @@ nav ul li a
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 36px;
     transition: 0.5s;
     text-decoration: none;
@@ -483,18 +484,7 @@ p
     letter-spacing: -0.017em;
     color: #250808;
 }
-.border
-{
-    position: absolute;
-    width: 228px;
-    height: 60px;
-    left: 72px;
-    top: 30px;
-    background: #e5e5e5;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+
 .boder 
 {
     position: absolute;
@@ -642,5 +632,4 @@ input[type=submit]
     letter-spacing: -0.017em;
     color: #fff;
 }
-
 
