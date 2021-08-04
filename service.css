@@ -177,3 +177,52 @@ tr{
 .wash_price td{
     padding-bottom: 40px;
 }
+.features{
+    height: fit-content;
+    background-color:#583A3A;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 100px;
+    
+}
+.holder, .holder_1{
+    
+    padding-left: 15px;
+    justify-content: space-between;
+    padding-right: 60px;
+    display: flex;
+}
+.features h1{
+    color: #2FB82C;
+    font-family: 'Poiret One', cursive;
+    font-weight: normal;
+    margin-top: -5px;
+    font-size: 2.2em;
+}
+.quality{
+    margin-top: -5px;
+    color: white;
+    font-size: 12px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+.holder img{
+    height: 65px;
+    width: 65px; 
+}
+.holder p{
+    margin-top: -25px;
+    
+}
+.holder_1 img{
+    height: 65px;
+    width: 65px; 
+}
+.holder_1 p{
+    margin-top: -25px;
+    
+}
+.holder_1{
+    margin-top: 25px;
+}
