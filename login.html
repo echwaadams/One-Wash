@@ -13,34 +13,38 @@
         <h1>OneWash</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services&pricing">Services&Pricing</a></li>
-                <li><a href="#Reviews">Reviews</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services&Pricing</a></li>
+                <li><a href="Review.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
 
             </ul>
         </nav>
         <div class="login">
-            <a href="#login">Login</a>
+            <a href="login.html">Login</a>
         </div>
     </header>
     <div id="error"></div>
     <div class="signin" id="login" >
         <form id="form" action="/" method="GET">
-            <div class="border">
-            <p class="pre">Sign Up</p>
-            </div>
+            
             <div class="boder">
                 <p class="prep">Login</p>
             </div>
             <p class="core">Login to your account</p>
             <input class="email" type="email" name="Email" placeholder="Email" required>
-            <input class="password" type="password" name="Password" placeholder="Password" required>
-            <input class="submit" type="submit" value="Login" >
+            <input class="password" type="password" name="Password" placeholder="Password"
+            onfocus="" required>
+            <input class="log" type="submit" value="Login" onclick="userLogin()">
 
-            <p class="post">Forgot your password?</p>
+          <!--  <p class="post">Forgot your password?</p>-->
 
         </form>
     </div>
+    <script>
+        function userLogin(){
+            window.location.href='index.html';
+        }
+    </script>
     
 </html>
