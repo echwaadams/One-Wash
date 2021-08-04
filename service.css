@@ -101,3 +101,79 @@ h2{
 .landes{
     margin-left: 10px;
 }
+.pricehead{
+    height: 100px;
+    background-color: #583A3A;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-top: 10px;
+    
+}
+.pricehead h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 36px;
+    color: white;
+    margin-left: -1100px;
+    font-weight: normal;
+}
+.pricehead p{
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+.price_cont{
+    height: fit-content;
+    display: flex; 
+    margin-top: 15px;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+}
+.lan_price{
+    height: 450px;
+    width: 410px;
+    background-image: url(/home/moringa/Desktop/Wash/img/laun.png);
+    padding-top: 80px;
+}
+.car_price{
+    height: 450px;
+    width: 410px;
+    background-image: url(/home/moringa/Desktop/Wash/img/carwash.png);
+    padding-top: 80px;
+}
+.wash_price{
+    height: 450px;
+    width: 410px;
+    background-image: url(/home/moringa/Desktop/Wash/img/san.png);
+    padding-top: 80px;
+}
+.price_cont h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 2.2em;
+    color: white;
+    font-weight: normal;
+   
+}
+table{
+    border-collapse: collapse;
+
+}
+#tbhead td{
+    padding-right: 330px;
+    margin-bottom: 30px;
+}
+table span{
+    color: blue;
+}
+tr{
+    margin-bottom: 10px;
+}
+.desc{
+    margin-top: 100px;
+    padding-left: 10px;
+}
+.car_price td{
+    padding-bottom: 40px;
+}
+.wash_price td{
+    padding-bottom: 40px;
+}
