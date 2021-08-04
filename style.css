@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 *
@@ -16,7 +15,7 @@ body
 }
 .container
 {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -69,7 +68,7 @@ nav ul li a
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 36px;
     transition: 0.5s;
     text-decoration: none;
@@ -436,7 +435,6 @@ nav ul li a:hover
     color: #fff;
 
 }
-
 p
 {
     position: absolute;
@@ -472,7 +470,7 @@ p
     position: absolute;
     width: 90px;
     height: 36px;
-    left: 126px;
+    left: 60px;
     top: 10px;
     font-family: "Poppins";
     font-style: normal;
@@ -484,13 +482,24 @@ p
     letter-spacing: -0.017em;
     color: #250808;
 }
-
+.border
+{
+    position: absolute;
+    width: 228px;
+    height: 60px;
+    left: 72px;
+    top: 30px;
+    background: #e5e5e5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .boder 
 {
     position: absolute;
     width: 218px;
     height: 60px;
-    left: 300px;
+    left: 180px;
     top: 30px;
     background: rgba(47, 187, 44, 0.92);
 }
@@ -499,7 +508,7 @@ p
     position: absolute;
     width: 90px;
     height: 36px;
-    left: 126px;
+    left: 80px;
     top: 10px;
     font-family: "Poppins";
     font-style: normal;
@@ -632,4 +641,3 @@ input[type=submit]
     letter-spacing: -0.017em;
     color: #fff;
 }
-
