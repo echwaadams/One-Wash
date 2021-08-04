@@ -501,3 +501,81 @@ h4 {
 #persons p {
     margin-top: 0.5cm;
 }
+/* main*/
+.main {
+    text-align: center;
+    margin-top: 4cm;
+    background-color: #583A3A;
+}
+.name {
+    color: aquamarine;
+    margin-top: 1cm;
+}
+
+.name h1{
+    font-size: 2cm;
+    font-family: "Rye";
+}
+.name p {
+    font-size: 1cm;
+}
+.location {
+    color: aquamarine;
+    font-style: oblique;
+    margin-top: 1cm;
+    font-size: 24px;
+}
+.opinion {
+   color: aquamarine;
+    margin-top: 1cm;
+    font-style: italic;
+    margin-bottom: 0.5cm;
+}
+.imgbg {
+    text-align: center;
+    margin-left: 15cm;
+    margin-right: 15cm;
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80");
+    display: flex;
+    flex-direction: column;
+    padding: 1cm 1cm;
+    width: 8cm;
+    height: 11cm;
+}
+.holders input {
+    padding: 8px 12px;
+}
+.name2 input{
+    display: block;
+    border-radius: 30px;
+    background-color: #F3DAF3;
+}
+.email input{
+    display: block;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #F3DAF3;
+}
+.phone input{
+    display: block;
+    border-radius: 30px;
+    background-color:#F3DAF3;
+    margin-top: 20px;
+}
+.imgbg .message input{
+    background-color:#F3DAF3;
+    display: block;
+    border-radius: 30px;
+    padding: 2cm 0.5cm;
+    margin-top: 30px;
+}
+.send button{
+    display: block;
+    border-radius: 30px;
+    line-height: 1;
+    background-color: green;
+    margin-left: 18cm;
+    margin-top: 0.5cm;
+    padding: 0.3cm 0.6cm;
+    margin-bottom: 2cm;
+}
