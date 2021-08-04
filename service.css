@@ -51,7 +51,7 @@ a:hover{
 }
 .intro{ /*to here */
     height: 250px;
-    background-image: url(/home/moringa/Desktop/Wash/img/clean.png);
+    background-image: url(https://i.postimg.cc/FR6p0Mns/cleanback.png);
     text-align: center;
     padding-top: 20px;
 }
@@ -131,19 +131,19 @@ h2{
 .lan_price{
     height: 450px;
     width: 410px;
-    background-image: url(/home/moringa/Desktop/Wash/img/laun.png);
+    background-image: url(https://i.postimg.cc/3NTc741H/laun.png);
     padding-top: 80px;
 }
 .car_price{
     height: 450px;
     width: 410px;
-    background-image: url(/home/moringa/Desktop/Wash/img/carwash.png);
+    background-image: url(https://i.postimg.cc/j2SyzRd7/carwash.png);
     padding-top: 80px;
 }
 .wash_price{
     height: 450px;
     width: 410px;
-    background-image: url(/home/moringa/Desktop/Wash/img/san.png);
+    background-image: url(https://i.postimg.cc/zfwh6yyh/san.png);
     padding-top: 80px;
 }
 .price_cont h2{
