@@ -226,3 +226,25 @@ tr{
 .holder_1{
     margin-top: 25px;
 }
+footer{
+    background-color: #474535;
+    height: 300px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+/**/
+.foot_cont{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    text-align: center;
+}
+.email, .time, .location{
+    display: flex;
+}
+#right{
+    margin-bottom: -35px;
+}
