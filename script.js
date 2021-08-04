@@ -23,7 +23,7 @@ form.addEventListener('submit', (e) => {
     }
 
 })
-window.addEventListener("scroll",function(){
-    var div = document.querySelector("div");
-    div.classList.toggle("sticky", window.scrollY > 0);
-})
+//window.addEventListener("scroll",function(){
+//    var div = document.querySelector("div");
+//    div.classList.toggle("sticky", window.scrollY > 0);
+//})

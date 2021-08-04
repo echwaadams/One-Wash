@@ -33,11 +33,15 @@
             <p class="core">Login to your account</p>
             <input class="email" type="email" name="Email" placeholder="Email" required>
             <input class="password" type="password" name="Password" placeholder="Password" required>
-            <input class="submit" type="submit" value="Login" >
+            <input class="log" type="submit" value="Login"onclick="userSignIn()" >
 
             <p class="post">Forgot your password?</p>
 
         </form>
     </div>
-    
+    <script>
+        function userSignIn(){
+           window.location.href='index.html';
+        }
+    </script>
 </html>

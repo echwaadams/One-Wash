@@ -15,7 +15,7 @@ body
 }
 .container
 {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -525,8 +525,6 @@ p
 .core 
 {
     position: absolute;
-    width: 187px;
-    height: 72px;
     left: 196px;
     top: 102px;
     font-family: "Poppins";
@@ -605,13 +603,13 @@ input[type=submit]
     background: rgba(47, 184, 44, 0.92);
     border-radius: 50px;
 }
-.submit
+.log
 {
     position: absolute;
     width: 63px;
     height: 36px;
     left: 252px;
-    top: 441px;
+    top: 500px;
     font-family: "Poiret One";
     font-style: normal;
     font-weight: 500;
@@ -640,4 +638,195 @@ input[type=submit]
     text-align: center;
     letter-spacing: -0.017em;
     color: #fff;
+}
+/*-- Signup---*/
+.signup
+{
+    position: absolute;
+    width: 627px;
+    height: 670px;
+    left: 349px;
+    top: 150px;
+    background: #583a3a;
+    border-radius: 50px;
+}
+.getb 
+{
+    position: absolute;
+    width: 218px;
+    height: 60px;
+    left: 180px;
+    top: 30px;
+    background: rgba(47, 187, 44, 0.92);
+}
+.ont
+{
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 80px;
+    top: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #250808;
+}
+.pore 
+{
+    position: absolute;
+    width: 187px;
+    height: 72px;
+    left: 196px;
+    top: 102px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #fff;    
+}
+.fname
+{
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 134px;
+    top: 226px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #000;
+}
+
+input[type=fname]
+{
+    position: absolute;
+    width: 224px;
+    height: 46px;
+    left: 76px;
+    top: 218px;
+    color: #fff;
+}
+input[type=lname]
+{
+    position: absolute;
+    width: 215px;
+    height: 46px;
+    left: 368px;
+    top: 218px;
+    color: #fff;
+
+}
+.lname
+{
+    position: absolute;
+    width: 85px;
+    height: 28px;
+    left: 137px;
+    top: 322px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #000;
+}
+input[type=text]
+{
+    position: absolute;
+    width: 511px;
+    height: 54px;
+    left: 72px;
+    top: 308px;
+    color: #fff;
+}
+.ema
+{
+    position: absolute;
+    width: 143px;
+    height: 28px;
+    left: 108px;
+    top: 322px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -0.017em;
+    color: #000;
+}
+.password
+{
+    position: absolute;
+    width: 207px;
+    height: 36px;
+    left: 186px;
+    top: 514px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #fff;
+}
+input[type=pass]
+{
+    position: absolute;
+    width: 511px;
+    height: 46px;
+    left: 72px;
+    top: 414px;
+    color: #fff;
+}
+.getstarted
+{
+    position: absolute;
+    width: 134px;
+    height: 36px;
+    left: 255px;
+    top: 543px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #fff;
+}
+input[type=submit]
+{
+    position: absolute;
+    width: 212px;
+    height: 66px;
+    left: 216px;
+    top: 528px;
+    background: rgba(47, 184, 44, 0.92);
+    border-radius: 50px;
 }
