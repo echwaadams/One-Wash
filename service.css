@@ -1,0 +1,227 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*from here*/
+header{
+    height: 70px;
+    background-color: #474535;
+    display: flex;
+}
+header h1{
+    color: #1EBE4B;
+    font-family: 'Aladin', cursive;
+    margin-left: 30px;
+    margin-top: auto;
+}
+.container ul{
+    margin-left: auto;
+    list-style: none;
+    
+}
+.container a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.container li{
+    display: inline;
+}
+.intro{ /*to here */
+    height: 250px;
+    background-image: url(https://i.postimg.cc/FR6p0Mns/cleanback.png);
+    text-align: center;
+    padding-top: 20px;
+}
+.intro h1{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    padding-top: 30px;
+    font-size: 48px;
+    font-weight: normal;
+}
+.intro p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;   
+}
+.serdesc{
+    display: flex;
+    height: fit-content;
+    margin-top: 15px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+h2{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 36px;
+    font-weight: normal;
+}
+.laun, .carwash, .bathroom{
+    /*border: black;*/
+    box-sizing: border-box;
+    height: 400px;
+    width: 400px;
+    padding-left: 5px;
+    border-style: solid;
+    margin-left: 5px;
+}
+#vec{
+    height: 100px;
+    width: 150px;   
+}
+.imgcont{
+    display: flex;
+    justify-content: center;
+}
+.landes{
+    margin-left: 10px;
+}
+.pricehead{
+    height: 100px;
+    background-color: #583A3A;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-top: 10px;
+    
+}
+.pricehead h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 36px;
+    color: white;
+    margin-left: -1100px;
+    font-weight: normal;
+}
+.pricehead p{
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+.price_cont{
+    height: fit-content;
+    display: flex; 
+    margin-top: 15px;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+}
+.lan_price{
+    height: 450px;
+    width: 410px;
+    background-image: url(https://i.postimg.cc/3NTc741H/laun.png);
+    padding-top: 80px;
+}
+.car_price{
+    height: 450px;
+    width: 410px;
+    background-image: url(https://i.postimg.cc/j2SyzRd7/carwash.png);
+    padding-top: 80px;
+}
+.wash_price{
+    height: 450px;
+    width: 410px;
+    background-image: url(https://i.postimg.cc/zfwh6yyh/san.png);
+    padding-top: 80px;
+}
+.price_cont h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 2.2em;
+    color: white;
+    font-weight: normal;
+   
+}
+table{
+    border-collapse: collapse;
+
+}
+#tbhead td{
+    padding-right: 330px;
+    margin-bottom: 30px;
+}
+table span{
+    color: blue;
+}
+tr{
+    margin-bottom: 10px;
+}
+.desc{
+    margin-top: 100px;
+    padding-left: 10px;
+}
+.car_price td{
+    padding-bottom: 40px;
+}
+.wash_price td{
+    padding-bottom: 40px;
+}
+.features{
+    height: fit-content;
+    background-color:#583A3A;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 100px;
+    
+}
+.holder, .holder_1{
+    
+    padding-left: 15px;
+    justify-content: space-between;
+    padding-right: 60px;
+    display: flex;
+}
+.features h1{
+    color: #2FB82C;
+    font-family: 'Poiret One', cursive;
+    font-weight: normal;
+    margin-top: -5px;
+    font-size: 2.2em;
+}
+.quality{
+    margin-top: -5px;
+    color: white;
+    font-size: 12px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+.holder img{
+    height: 65px;
+    width: 65px; 
+}
+.holder p{
+    margin-top: -25px;
+    
+}
+.holder_1 img{
+    height: 65px;
+    width: 65px; 
+}
+.holder_1 p{
+    margin-top: -25px;
+    
+}
+.holder_1{
+    margin-top: 25px;
+}
+footer{
+    background-color: #474535;
+    height: 300px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+/**/
+.foot_cont{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    text-align: center;
+}
+.email, .time, .location{
+    display: flex;
+}
