@@ -8,11 +8,8 @@
     box-sizing: border-box;
 }
 
-body
-{
+body{
     background-color: #474535;
-    width: 1440px;
-    height: 1668px;
 }
 .container
 {
@@ -221,7 +218,7 @@ nav ul li a:hover
     width: 193px;
     height: 54px;
     left: 106px;
-    top: 1518px;
+    top: 1018px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -238,7 +235,7 @@ nav ul li a:hover
     width: 165px;
     height: 54px;
     left: 493px;
-    top: 1522px;
+    top: 1022px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -255,7 +252,7 @@ nav ul li a:hover
     width: 78px;
     height: 36px;
     left: 106px;
-    top: 1575px;
+    top: 1075px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -272,7 +269,7 @@ nav ul li a:hover
     width: 65px;
     height: 36px;
     left: 106px;
-    top: 1610px;
+    top: 1110px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -289,7 +286,7 @@ nav ul li a:hover
     width: 93px;
     height: 36px;
     left: 106px;
-    top: 1640px;
+    top: 1140px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -306,7 +303,7 @@ nav ul li a:hover
     width: 80px;
     height: 36px;
     left: 106px;
-    top: 1670px;
+    top: 1170px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -323,7 +320,7 @@ nav ul li a:hover
     width: 104px;
     height: 36px;
     left: 493px;
-    top: 1575px;
+    top: 1075px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -340,7 +337,7 @@ nav ul li a:hover
     width: 135px;
     height: 36px;
     left: 493px;
-    top: 1600px;
+    top: 1100px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -357,7 +354,7 @@ nav ul li a:hover
     width: 126px;
     height: 36px;
     left: 493px;
-    top: 1625px;
+    top: 1125px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -374,7 +371,7 @@ nav ul li a:hover
     width: 87px;
     height: 36px;
     left: 493px;
-    top: 1650px;
+    top: 1150px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -391,7 +388,7 @@ nav ul li a:hover
     width: 282px;
     height: 36px;
     left: 967px;
-    top: 1522px;
+    top: 1022px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -408,7 +405,7 @@ nav ul li a:hover
     width: 211px;
     height: 72px;
     left: 967px;
-    top: 1560px;
+    top: 1060px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -425,7 +422,7 @@ nav ul li a:hover
     width: 386px;
     height: 72px;
     left: 967px;
-    top: 1669px;
+    top: 1169px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -436,81 +433,71 @@ nav ul li a:hover
     letter-spacing: -0.017em;
     color: #fff;
 }
-/* main*/
+/* reveiw*/
 .main {
-    text-align: center;
-    margin-top: 4cm;
-    background-color: #583A3A;
-}
-.name {
-    color: aquamarine;
-    margin-top: 1cm;
-}
+   background-color: #583A3A;
+   margin-top: 4cm;
+   box-sizing: border-box;
 
-.name h1{
-    font-size: 2cm;
-    font-family: "Rye";
 }
-.name p {
-    font-size: 1cm;
-}
-.location {
-    color: aquamarine;
-    font-style: oblique;
-    margin-top: 1cm;
-    font-size: 24px;
-}
-.opinion {
-   color: aquamarine;
-    margin-top: 1cm;
-    font-style: italic;
-    margin-bottom: 0.5cm;
-}
-.imgbg {
-    text-align: center;
-    margin-left: 15cm;
-    margin-right: 15cm;
-    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80");
+#persons {
+    width: 41cm;
     display: flex;
-    flex-direction: column;
-    padding: 1cm 1cm;
-    width: 8cm;
-    height: 11cm;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
 }
-.holders input {
-    padding: 8px 12px;
-}
-.name2 input{
-    display: block;
-    border-radius: 30px;
-    background-color: #F3DAF3;
-}
-.email input{
-    display: block;
-    border-radius: 30px;
-    margin-top: 20px;
-    background-color: #F3DAF3;
-}
-.phone input{
-    display: block;
-    border-radius: 30px;
-    background-color:#F3DAF3;
-    margin-top: 20px;
-}
-.imgbg .message input{
-    background-color:#F3DAF3;
-    display: block;
-    border-radius: 30px;
-    padding: 2cm 0.5cm;
-    margin-top: 30px;
-}
-.send button{
-    display: block;
-    border-radius: 30px;
-    line-height: 1;
-    background-color: green;
-    margin-left: 18cm;
-    margin-top: 0.5cm;
-    padding: 0.3cm 0.6cm;
+.customer1 {
+    background-color: #fff;
+    width: 6cm;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin-left: 8cm;
     margin-bottom: 2cm;
+}
+.customer2 {
+    background-color: #fff;
+    width: 6cm;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin-left: 8cm;
+    margin-bottom: 2cm;
+}
+.customer3 {
+    background-color: #fff;
+    width: 6cm;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin-left: 8cm;
+    margin-bottom: 2cm;
+}
+.customer4 {
+    background-color: #fff;
+    width: 6cm;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin-left: 8cm;
+    margin-bottom: 2cm;
+}
+h1 {
+    font-family: "Poiret One";
+    font-weight: 200;
+    text-align: center;
+    color: #B2F5FE;
+    margin-top: 0.5cm;
+}
+h4 {
+    font-family: "Poppins";
+    text-align: center;
+    color: white;
+    font-size: 36;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+}
+#persons p {
+    margin-top: 0.5cm;
 }
