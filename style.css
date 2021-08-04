@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-<<<<<<< HEAD
-=======
-
->>>>>>> c9674e7355470642ed7770551a2c2b4c4feee0d7
 *
 {
     margin: 0px;
@@ -19,7 +15,7 @@ body
 }
 .container
 {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -82,10 +78,6 @@ nav ul li a:hover
 {
     color: white;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> c9674e7355470642ed7770551a2c2b4c4feee0d7
 .login a
 {
     position: relative;
@@ -102,10 +94,6 @@ nav ul li a:hover
     text-align: center;
     text-decoration: none;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> c9674e7355470642ed7770551a2c2b4c4feee0d7
 .content
 {
     position: absolute;
@@ -180,7 +168,6 @@ nav ul li a:hover
     width: 136px;
     height: 36px;
     text-decoration: none;
-<<<<<<< HEAD
 }
 .about
 {
@@ -446,10 +433,9 @@ nav ul li a:hover
     align-items: center;
     letter-spacing: -0.017em;
     color: #fff;
-<<<<<<< HEAD
+
 }
-=======
-}
+
 p
 {
     position: absolute;
@@ -656,7 +642,5 @@ input[type=submit]
     letter-spacing: -0.017em;
     color: #fff;
 }
->>>>>>> d8a209bfe53d845c48c60c9458de870c1b4a7a1c
-=======
-}
->>>>>>> c9674e7355470642ed7770551a2c2b4c4feee0d7
+
+
