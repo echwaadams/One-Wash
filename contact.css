@@ -13,7 +13,7 @@ body{
 }
 .container
 {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -388,7 +388,7 @@ nav ul li a:hover
     width: 282px;
     height: 36px;
     left: 967px;
-    top: 1522px;
+    top: 1622px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
